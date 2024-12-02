@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="lineage"
-          fetch="ssh://git@github.com/LineageOS"
+          fetch="https://github.com/LineageOS"
           revision="lineage-21.0" />
 
   <!-- Apps -->
