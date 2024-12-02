@@ -38,17 +38,6 @@
 
   <!-- Hardware Projects -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk,sysui-studio" remote="feather" />
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="feather">
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
-  </project>
-  <project path="hardware/qcom-caf/sm6225/audio/agm" name="android_hardware_qcom-caf_sm6225_audio_agm" remote="feather" />
-  <project path="hardware/qcom-caf/sm6225/audio/pal" name="android_hardware_qcom-caf_sm6225_audio_pal" remote="feather" />
-  <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="android_hardware_qcom-caf_sm6225_audio_primary-hal" remote="feather" />
-  <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="android_hardware_qcom-caf_sm6225_data-ipa-cfg-mgr" remote="feather" />
-  <project path="hardware/qcom-caf/sm6225/dataipa" name="android_hardware_qcom-caf_sm6225_dataipa" remote="feather" />
-  <project path="hardware/qcom-caf/sm6225/display" name="android_hardware_qcom-caf_sm6225_display" remote="feather" />
-  <project path="hardware/qcom-caf/sm6225/media" name="android_hardware_qcom-caf_sm6225_media" remote="feather" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="refs/tags/android-14.0.0_r0.76" />
