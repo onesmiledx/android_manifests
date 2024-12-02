@@ -2,11 +2,11 @@
 <manifest>
 
   <remote name="feather"
-          fetch="ssh://git@github.com/FeatherROM/"
+          fetch="https://github.com/FeatherROM/"
           revision="15" />
 
   <remote name="feather-gitlab"
-          fetch="ssh://git@gitlab.com/FeatherROM/"
+          fetch="https://@gitlab.com/FeatherROM/"
           revision="15" />
 
   <!-- Manifests -->
