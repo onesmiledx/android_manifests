@@ -6,7 +6,7 @@
           revision="15" />
 
   <remote name="feather-gitlab"
-          fetch="https://@gitlab.com/FeatherROM/"
+          fetch="https://gitlab.com/FeatherROM/"
           revision="15" />
 
   <!-- Manifests -->
